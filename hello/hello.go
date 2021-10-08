@@ -17,6 +17,10 @@ func main() {
     // A slice of names.
     names := []string{"Miftah", "Bagus", "Yuan"}
 
+    for idk, name := range names {
+        fmt.Println("Read : ", name, idk)
+    }
+
     // get a greeting message and print it
     message, err := greetings.Hellos(names)
     if err != nil {
