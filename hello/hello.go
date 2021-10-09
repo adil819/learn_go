@@ -4,7 +4,7 @@ import (
     "fmt"
     "log"
 
-    "GO/greetings"
+    "learn_go/greetings"
 )
 
 func main() {
